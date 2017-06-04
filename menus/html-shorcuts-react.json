@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle html-shorcuts-react",
+        "command": "html-shorcuts-react:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "html-shorcuts-react",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "html-shorcuts-react:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
