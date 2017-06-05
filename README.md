@@ -5,7 +5,7 @@
 You can install the **settings** by pressing **ctrl+**, opened atom, then you go to install and looking on packages. ```html-shorcuts-react.```
 
 this is the best atom snippets. A shortcuts html from react developer.
-you can write the and autocomplete with **tab** html tags, because sometimes it does not work emmet correctly.
+you can write and autocomplete with **tab** html tags, because sometimes it does not work emmet correctly.
 
 # tags
 tags for use with **tab**.
