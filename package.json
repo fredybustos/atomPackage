@@ -1,5 +1,5 @@
 {
-  "name": "html-shorcuts-react",
+  "name": "html-shortcuts-react",
   "main": "./lib/html-shorcuts-react",
   "version": "0.3.2",
   "description": "shorcuts html for react developer",
@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "html-shorcuts-react:toggle"
   },
-  "repository": "https://github.com/atom/html-shorcuts-react",
+  "repository": "https://github.com/atom/html-shortcuts-react",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
