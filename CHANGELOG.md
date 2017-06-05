@@ -2,5 +2,5 @@
 * Every feature added
 * Every bug fixed
 
-## 0.1.1
-* Modified file Readme 
+## 0.2.1
+* Modified file Readme
