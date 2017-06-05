@@ -115,3 +115,7 @@
   'html:tag':
     'prefix': 'tag'
     'body': '<${1} />'
+
+  'html:_nav':
+    'prefix': '_nav'
+    'body': '<nav>\n\t<ul>\n\t<li>\n\t<a href=""></a>${1}</li></ul></nav>'
