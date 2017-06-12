@@ -1,7 +1,7 @@
 {
   "name": "html-shorcuts-react",
   "main": "./lib/html-shorcuts-react",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "shorcuts html for react developer",
   "keywords": [
     "html",
