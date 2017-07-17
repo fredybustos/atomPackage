@@ -43,8 +43,12 @@ import { Link } from 'react-router'
 import ${1} from ''
 ```
 
-tags complete in wiki of proyect.
+Tags for html complete in wiki of proyect.
 [wiki Proyect](https://github.com/fredybustos/atomPackage/wiki)
+
+
+Snippets for React complete in wiki of proyect.
+[wiki Proyect](https://github.com/fredybustos/atomPackage/wiki/Snippets-For-React.js)
 
 
 # License

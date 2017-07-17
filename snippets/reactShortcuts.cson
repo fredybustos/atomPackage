@@ -39,7 +39,7 @@
 
   "React: Link":
     'prefix': "rrl"
-    'body': " <Link to={${1}}>\n\n${2}</Link>"
+    'body': "<Link to={${1}}>\n\n${2}</Link>"
 
   "React: this.props":
     'prefix': "rtp"
@@ -59,8 +59,3 @@
         \n\t\t)
         \n\t}
         \n}"
-
-  "React: Link":
-    'prefix': "rrl"
-    'body': '<Link to="${1}"
-      \n</Link>'
