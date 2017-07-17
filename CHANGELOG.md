@@ -9,5 +9,8 @@
 * Modified file name of shorcuts at shortcuts.
 
 ## 1.0.0
-* New Added tags at documentation, modified
-documentation and added at wiki of github. new added tags in snippets. version stable.
+* Added new tags at documentation, modified
+documentation and added at wiki of github. Added new tags in snippets. version stable.
+
+## 1.1.0
+* Added new snippets for React.

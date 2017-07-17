@@ -1,0 +1,66 @@
+'.source.js':
+  "React: import":
+    'prefix': "ric"
+    'body': "import React, { Component } from 'react'"
+
+  "React: import link":
+    'prefix': "ril"
+    'body': "import { Link } from 'react-router'"
+
+  "React: constructor":
+    'prefix': "rcs"
+    'body': "constructor(props){
+    \n\tsuper(props)
+    \n\t${1}
+    \n\}"
+
+  "React: react-router":
+    'prefix': "rir"
+    'body': "import { ${1} } from 'react-router'"
+
+  "React: import from":
+    'prefix': "rif"
+    'body': "import ${1} from ''"
+
+  "React: this.setState":
+    'prefix': "rss"
+    'body': "this.setState({\n\t
+      ${1}
+      \n\
+      })"
+
+  "React: export":
+    'prefix': "red"
+    'body': "export default ${1}"
+
+  "React: this.state":
+    'prefix': "rts"
+    'body': " this.state${1}"
+
+  "React: Link":
+    'prefix': "rrl"
+    'body': " <Link to={${1}}>\n\n${2}</Link>"
+
+  "React: this.props":
+    'prefix': "rtp"
+    'body': " this.props${1}"
+
+  "React: BrowserRouter":
+    'prefix': "rbr"
+    'body': "import {
+      BrowserRouter as Router, Route } from 'react-router-dom'"
+
+  "React: class":
+    'prefix': "rcc"
+    'body': "class ${1} extends Component {
+      \n\trender(){
+        \n\t\treturn(
+        \n\t\t\t<div></div>
+        \n\t\t)
+        \n\t}
+        \n}"
+
+  "React: Link":
+    'prefix': "rrl"
+    'body': '<Link to="${1}"
+      \n</Link>'
