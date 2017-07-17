@@ -7,7 +7,7 @@
     "html",
     "shortcuts",
     "react",
-    "snippets",
+    "snippets"
   ],
   "activationCommands": {
     "atom-workspace": "html-shorcuts-react:toggle"
