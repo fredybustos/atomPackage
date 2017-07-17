@@ -14,3 +14,6 @@ documentation and added at wiki of github. Added new tags in snippets. version s
 
 ## 1.1.0
 * Added new snippets for React.
+
+## 1.1.1
+* Modified shortcuts html. Added keywords and modified description command line for react  

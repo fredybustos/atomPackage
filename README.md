@@ -25,7 +25,7 @@ tags for use with **tab**.
   <a href="">${1}</a>
 ```
 
-# Comand line for React.js
+# Command line for React.js
 
 ## ric
 

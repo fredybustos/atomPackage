@@ -8,7 +8,7 @@
     'prefix': 'a'
     'body': '<a href="">${1}</a>'
 
-  'html:acn':
+  'html:a className':
     'prefix': 'acn'
     'body': '<a href="" className="${1}"></a>'
 
@@ -36,11 +36,11 @@
     'prefix': 'main'
     'body': '<main>${1}</main>'
 
-  'html:macn':
+  'html:main className':
     'prefix': 'macn'
     'body': '<main className="${1}"></main>'
 
-  'html:spcn':
+  'html:span className':
     'prefix': 'spcn'
     'body': '<span className="${1}"></span>'
 
@@ -48,7 +48,7 @@
     'prefix': 'sect'
     'body': '<section>${1}</section>'
 
-  'html:secn':
+  'html:section className':
     'prefix': 'secn'
     'body': '<section className="${1}"></section>'
 
@@ -56,7 +56,7 @@
     'prefix': 'div'
     'body': '<div>${1}</div>'
 
-  'html:dcn':
+  'html:div className':
     'prefix': 'dcn'
     'body': '<div className="${1}"></div>'
 
@@ -64,7 +64,7 @@
     'prefix': 'article'
     'body': '<aarticle>${1}</article>'
 
-  'html:ar':
+  'html:article className':
     'prefix': 'arcn'
     'body': '<article className="${1}"></article>'
 
@@ -72,7 +72,7 @@
     'prefix': 'img'
     'body': '<img src="${1}" alt="" />'
 
-  'html:imgcn':
+  'html:image className':
     'prefix': 'imgcn'
     'body': '<img className="${1}" src="${1a}" alt="" />'
 
@@ -80,7 +80,7 @@
     'prefix': 'h1'
     'body': '<h1>${1}</h1>'
 
-  'html:h1cn':
+  'html:h1 className':
     'prefix': 'h1cn'
     'body': '<h1 className="${1}"></h1>'
 
@@ -88,7 +88,7 @@
     'prefix': 'h2'
     'body': '<h2>${1}</h2>'
 
-  'html:h2cn':
+  'html:h2 className':
     'prefix': 'h2cn'
     'body': '<h2 className="${1}"></h2>'
 
@@ -96,7 +96,7 @@
     'prefix': 'h3'
     'body': '<h3>${1}</h3>'
 
-  'html:h3cn':
+  'html:h3 className':
     'prefix': 'h3cn'
     'body': '<h3 className="${1}"></h3>'
 
@@ -104,7 +104,7 @@
     'prefix': 'h4'
     'body': '<h4>${1}</h4>'
 
-  'html:h4cn':
+  'html:h4 className':
     'prefix': 'h4cn'
     'body': '<h4 className="${1}"></h4>'
 
@@ -116,7 +116,7 @@
     'prefix': 'figcaption'
     'body': '<figcaption>${1}</figcaption>'
 
-  'html:figcn':
+  'html:figure className':
     'prefix': 'figcn'
     'body': '<figure className="${1}"></figure>'
 
@@ -124,7 +124,7 @@
     'prefix': 'header'
     'body': '<header>${1}</header>'
 
-  'html:hecn':
+  'html:header className':
     'prefix': 'hecn'
     'body': '<header className="${1}"></header>'
 
@@ -132,7 +132,7 @@
     'prefix': 'nav'
     'body': '<nav>${1}</nav>'
 
-  'html:navcn':
+  'html:nav className':
     'prefix': 'navcn'
     'body': '<nav className="${1}"></nav>'
 
@@ -140,7 +140,7 @@
     'prefix': 'ul'
     'body': '<ul>${1}</ul>'
 
-  'html:ulcn':
+  'html:ul className':
     'prefix': 'ulcn'
     'body': '<ul className="${1}"></ul>'
 
@@ -148,7 +148,7 @@
     'prefix': 'li'
     'body': '<li>${1}</li>'
 
-  'html:licn':
+  'html:li className':
     'prefix': 'licn'
     'body': '<li className="${1}"></li>'
 
@@ -160,7 +160,7 @@
     'prefix': 'ol'
     'body': '<ol>${1}</ol>'
 
-  'html:olcn':
+  'html:ol className':
     'prefix': 'olcn'
     'body': '<ol className="${1}"></ol>'
 
@@ -168,7 +168,7 @@
     'prefix': 'footer'
     'body': '<footer>${1}</footer>'
 
-  'html:foocn':
+  'html:footer className':
     'prefix': 'foocn'
     'body': '<footer className="${1}"></footer>'
 
@@ -176,7 +176,7 @@
     'prefix': 'form'
     'body': '<form>${1}</form>'
 
-  'html:forcn':
+  'html:form className':
     'prefix': 'forcn'
     'body': '<form className="${1}"></form>'
 
@@ -184,7 +184,7 @@
     'prefix': 'label'
     'body': '<label>${1}</label>'
 
-  'html:labcn':
+  'html:label className':
     'prefix': 'labcn'
     'body': '<label className="${1}"></label>'
 
@@ -192,7 +192,7 @@
     'prefix': 'input'
     'body': '<input type="" name="" value=""${1} />'
 
-  'html:inpcn':
+  'html:input className':
     'prefix': 'inpcn'
     'body': '<input className="${1}" type="" name="" value="" />'
 
@@ -200,7 +200,7 @@
     'prefix': 'textarea'
     'body': '<textarea name="" cols="" rows="">${1}</textarea>'
 
-  'html:textcn':
+  'html:textarea className':
     'prefix': 'textcn'
     'body': '<textarea className="${1}" name="" cols="" rows=""></textarea>'
 
@@ -208,7 +208,7 @@
     'prefix': 'button'
     'body': '<button type="button">${1}</button>'
 
-  'html:butcn':
+  'html:button className':
     'prefix': 'butcn'
     'body': '<button className="${1}"></button>'
 
