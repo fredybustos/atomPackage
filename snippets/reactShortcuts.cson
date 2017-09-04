@@ -43,7 +43,7 @@
 
   "React: this.props":
     'prefix': "rtp"
-    'body': " this.props${1}"
+    'body': " this.props.${1}"
 
   "React: BrowserRouter":
     'prefix': "rbr"
@@ -59,3 +59,91 @@
         \n\t\t)
         \n\t}
         \n}"
+
+  //nuevos
+
+  "React: import PropTypes":
+    'prefix': "rip"
+    'body': "import PropTypes from 'prop-types'"
+
+  "React: react-dom":
+    'prefix': "rid"
+    'body': "import ReactDOM from 'react-dom'"
+
+  "React: componentDidMount":
+    'prefix': "rcdm"
+    'body': "componentDidMount() {
+      \n\t${1}
+      \n}"
+
+  "React: componentDidUpdate":
+    'prefix': "rcdu"
+    'body': "componentDidUpdate(prevProps, prevState) {
+      \n\t${1}
+      \n}"
+
+  "React: componentWillMount":
+    'prefix': "rcwm"
+    'body': "componentWillMount() {
+      \n\t${1}
+      \n}"
+
+  "React: componentWillReceiveProps":
+    'prefix': "rcwr"
+    'body': "componentWillReceiveProps(nextProps) {
+      \n\t${1}
+      \n}"
+
+  "React: componentWillUnmount":
+    'prefix': "rcwu"
+    'body': "componentWillUnmount() {
+      \n\t${1}
+      \n}"
+
+  "React: componentWillUpdate":
+    'prefix': "rcwud"
+    'body': "componentWillUpdate(nextProps, nextState) {
+      \n\t${1}
+      \n}"
+
+  "React: getDefaultProps":
+    'prefix': "rgdp"
+    'body': "getDefaultProps() {
+      \n\treturn {
+        \n\t\t${1}
+        \n\t}
+        \n}"
+
+  "React: getInitialState":
+    'prefix': "rgis"
+    'body': "getInitialState() {
+      \n\treturn {
+        \n\t\t${1}
+        \n\t}
+        \n}"
+
+  "React: Class Base":
+    'prefix': "rcb"
+    'body': "import React, { Component } from 'react'
+    \n\nclass ${1} extends Component {
+      \n\trender() {
+        \n\t\treturn(
+        \n\t\t\t<div></div>
+        \n\t\t)
+        \n\t}
+        \n}
+        \n\nexport default ${1}"
+
+  "React: shouldComponentUpdate(np, ns) { ... }":
+    'prefix': "rscu"
+    'body': "shouldComponentUpdate(nextProps, nextState) {
+      \n\t${1}
+      \n}"
+
+  'Router: Route':
+    'prefix': 'rrt'
+    'body': "<Route path='${1}' component={} />"
+
+  'Router: Redirect':
+    'prefix': 'rrd'
+    'body': "<Redirect from=\'${1}\' to=\'\' />"
