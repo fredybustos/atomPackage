@@ -60,8 +60,6 @@
         \n\t}
         \n}"
 
-  //nuevos
-
   "React: import PropTypes":
     'prefix': "rip"
     'body': "import PropTypes from 'prop-types'"
@@ -134,7 +132,7 @@
         \n}
         \n\nexport default ${1}"
 
-  "React: shouldComponentUpdate(np, ns) { ... }":
+  "React: shouldComponentUpdate":
     'prefix': "rscu"
     'body': "shouldComponentUpdate(nextProps, nextState) {
       \n\t${1}
