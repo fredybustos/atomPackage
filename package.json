@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "html-shorcuts-react:toggle"
   },
-  "repository": "https://github.com/atom/html-shorcuts-react",
+  "repository": "git@github.com:fredybustos/atomPackage.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
