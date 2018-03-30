@@ -224,10 +224,6 @@
     'prefix': 'viewport'
     'body': '<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>'
 
-  'html:tag':
-    'prefix': 'tag'
-    'body': '<${name} />'
-
   'html:menu':
     'prefix': 'menu'
     'body': '<nav>\n\t<ul>\n\t\t<li>\n\t\t\t<a href="">${1}</a>\n\t\t</li>\n\t</ul>\n\</nav>'
