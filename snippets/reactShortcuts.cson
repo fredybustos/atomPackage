@@ -145,3 +145,78 @@
   'Router: Redirect':
     'prefix': 'rrd'
     'body': "<Redirect from=\'${1}\' to=\'\' />"
+
+  'React: html-tag':
+    'prefix': 'tag'
+    'body': '<${1} />'
+
+  "React: import renderToString":
+    'prefix': "rrts"
+    'body': "import { renderToString } from 'react-dom/sever'"
+
+  "React: import ServerRouter":
+    'prefix': "risr"
+    'body': "import { StaticRouter } from 'react-router'"
+
+  "React: import render":
+    'prefix': "ridr"
+    'body': "import { render } from 'react-dom'"
+
+  "React: import react":
+    'prefix': "ri"
+    'body': "import React from 'react'"
+
+  "React: components arrow":
+    'prefix': "rca"
+    'body': "import React from 'react'\n
+      \nconst ${1} = (props) => {
+        \nreturn(
+        \n\t<div></div>
+        \n\t)
+      \n\}
+      \nexport default ${1}"
+
+  "React: props.children":
+    'prefix': "rpc"
+    'body': "{props.children}"
+
+  "React: tag-html":
+    'prefix': "tagt"
+    'body': "<${1}>\n\n</${1}>"
+
+  "React: createPortal":
+    'prefix': "rcp"
+    'body': "import { createPortal } from 'react-dom'"
+
+  "React: life Cicle":
+    'prefix': "rcdc"
+    'body': "componentDidCatch(error, info)\t{
+      \n\t${1}
+      \n}"
+
+  "React: tag StaticRouter":
+    'prefix': "ritsr"
+    'body': "<StaticRouter lacation={} context={conext}>
+    \n\t${1}\n</StaticRouter>"
+
+  "React: react function":
+    'prefix': "rcf"
+    'body': "import React from 'react'\n
+      \nfunction ${1}(props) {
+        \n\treturn(
+          \n\t\t<div></div>
+        \n\t)
+      \n}
+      \nexport default ${1}"
+
+  "React: class pureComponent":
+    'prefix': "rpcb"
+    'body': "import React, { PureComponent } from 'react'
+    \n\nclass ${1} extends PureComponent {
+      \n\trender() {
+        \n\t\treturn(
+        \n\t\t\t<div></div>
+        \n\t\t)
+        \n\t}
+        \n}
+        \n\nexport default ${1}"
